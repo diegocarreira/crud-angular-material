@@ -1,0 +1,6 @@
+<md-subheader class="md-no-sticky">Lista de cursos</md-subheader>
+  <md-list-item ng-repeat="curso in cursos">
+    <p flex> {{ curso.nome }} </p>
+    <p flex> {{ curso.duracao }} <span ng-if="curso.duracao > 0"> anos</span> </p>
+  </md-list-item>
+

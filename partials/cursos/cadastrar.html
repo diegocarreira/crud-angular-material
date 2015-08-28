@@ -1,0 +1,30 @@
+  <md-content layout-padding>
+    <form name="univForm">
+
+      <div layout layout-sm="column">
+        <md-input-container flex>
+          <label>Instituição</label>
+          <input ng-model="curso.universidade" disabled>
+        </md-input-container>
+      </div>
+
+    <div layout layout-sm="column">
+      <md-input-container flex>
+        <label>Curso</label>
+        <input ng-model="curso.nome">
+      </md-input-container flex>
+      <md-input-container>
+      <label>Duração (anos)</label>
+        <input ng-model="curso.duracao">
+      </md-input-container>
+    </div>
+
+    <div layout layout-sm="column">
+      <md-button class="md-raised md-primary" ng-click="addCurso()">
+            Cadastrar
+        </md-button>
+    </div>
+
+
+    </form>
+  </md-content>
