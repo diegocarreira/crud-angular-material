@@ -19,4 +19,4 @@
 
 
 #Next Tasks:
-- Modularizar as entidades/collections
+- Modularizar as entidades/collections (pasta como um modulo, com seus controllers, services e views)
